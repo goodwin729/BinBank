@@ -1,0 +1,91 @@
+@import "bootstrap/bootstrap.less";
+
+
+a{
+    color: @gray-dark;
+    text-decoration: underline;
+    &:hover{
+        color: @gray-dark;
+        text-decoration: none;
+        transition: 0.25s;
+    }
+    &:not(:hover) {
+        transition: 0.25s;
+    }
+}
+p {
+    margin: @site-padding / 2 0;
+}
+b, strong {
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+.form-control {
+    box-shadow: none;
+}
+
+.left{ float: left;}
+.right{ float: right;}
+label{
+    font-weight: normal;
+}
+textarea:focus,
+input:focus{
+    box-shadow: none;
+}
+*:focus,
+*:visited,
+a:focus{
+    outline: none;
+    text-decoration: none;
+}
+/*---------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: @black;
+    margin: 0;
+}
+h1{
+}
+h2{
+}
+h3{
+}
+h4{
+}
+h5{
+    font-size: 16px;
+}
+.brand-font{ font-family: @brand-font;}
+
+mark{
+    background: none;
+    color: @brand-color;
+    padding: 0 @site-padding / 2;
+}
+.center-el{ text-align: center;}
+.container {
+    height: 100%;
+    position: relative;
+}
+
+
+
+@import "variables.less";
+
+@import "header.less";
+@import "man.less";
+@import "pooUp.less";
+
+//@import "media/media-maxWidth-1200.less";
+//@import "media/media-768-959.less";
+//@import "media/media-320-767.less";
+//@import "media-601-767.less";
+//@import "media-maxWidth-600.less";
+//@import "media-ipad-portrait768.less";
+//@import "media-ipad-landscape1024.less";

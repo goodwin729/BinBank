@@ -1,0 +1,31 @@
+.header {
+    overflow: hidden;
+    padding: @site-padding * 2 @site-padding;
+    &__logo {
+        float: left;
+        margin-top: @site-padding / 3;
+    }
+    &__contact {
+        float: right;
+        text-align: right;
+        &_link {
+            font-size: 16px;
+            line-height: 16px;
+        }
+    }
+    &__number {
+        display: block;
+        font-size: 24px;
+        line-height: 30px;
+        position: relative;
+        &:before {
+            content: "";
+            background: url("../img/ico-phone.png") no-repeat 0 0;
+            height: 25px;
+            left: -@site-padding * 3;
+            position: absolute;
+            top: @site-padding / 3;
+            width: 21px;
+        }
+    }
+}
