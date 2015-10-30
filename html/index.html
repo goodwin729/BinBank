@@ -5,9 +5,7 @@
     <title>название</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="../css/jquery.mCustomScrollbar.css"rel="stylesheet" />
-    <link rel="stylesheet" href="../css/owl.carousel.css">
     <link href="../css/styles.css" rel="stylesheet" type="text/css" />
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -15,17 +13,32 @@
 </head>
 <body>
 
-<!-- Modal -->
-<div class="modal fade" id="modalVideo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<!-- Modal video -->
+<div class="modal fade" id="modalVideo" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Привет!</h4>
+                <h4 class="modal-title">Привет!</h4>
                 <p class="modal-text">Посмотри видео о том, как я скопил на конуру</p>
             </div>
             <div class="modal-body">
                 <img src="../img/video-blank.jpg" alt="" class="modal-blank">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal video -->
+<div class="modal fade" id="modalTariff" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Раздел в разработке...</h4>
+            </div>
+            <div class="modal-body">
+                ...
             </div>
         </div>
     </div>
@@ -43,27 +56,56 @@
     </div>
 
     <div class="content">
+        <div class="banner col-lg-8">
+            <img src="../img/percent.png" alt="" class="banner__img">
+            <span class="banner__title">ВКЛАД</span>
+            <span class="clearfix">&nbsp;</span>
+        </div>
+        <div class="form col-lg-8">
+            <span class="form__title">выбирайте с умом!<br>надежная выгода</span>
+            <ul class="form__list">
+                <li class="form__item">
+                    <div class="input">
+                        <input type="text" class="input__item" placeholder="Имя">
+                    </div>
+                </li>
+                <li class="form__item">
+                    <div class="input">
+                        <input type="text" class="input__item" placeholder="Телефон">
+                    </div>
+                </li>
+                <li class="form__item">
+                    <div class="form__btn">
+                        <a href="#" title="" class="btn">Открыть вклад сейчас</a>
+                    </div>
+                </li>
+                <li class="form__item">
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__item">
+                        <span class="checkbox__label">Я согласен(а) на обработку персональных данных*</span>
+                    </div>
+                </li>
+            </ul>
+            <span class="form__hint"><mark>*</mark>Эти поля вам нужно обязательно заполнить</span>
+        </div>
         <div class="man">
             <div class="man__question">
                 <img src="../img/man.png" alt="" class="man__image">
                 <span class="man__trigger" data-toggle="modal" data-target="#modalVideo">?</span>
-                <div class="man__modal">
-                    dsfsdf
-                </div>
             </div>
         </div>
         <a href="#" title=""></a>
     </div>
 
     <div class="footer">
-
+        <a href="#" title="" class="footer__link info-tariff">Информация о тарифах</a>
+        <div class="footer__copy">© 1993-2015, ПАО «БИНБАНК» Генеральная лицензия Банка России №2562</div>
     </div>
 
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
-<script src="../js/owl.carousel.js"></script>
 <script src="../js/scripts.js" type="text/javascript"></script>
 </body>
 </html>

@@ -17,9 +17,10 @@
 @gray-light: #eaeaea;
 @gray: #ddd;
 @gray-dark: #555555;
-@black: #222;
+@black: #000;
 
 @brand-color: #f58622;
+@brand-color-dark: #e38500;
 
 
 @body-bg: @white;
@@ -40,6 +41,11 @@ body,html{
 .container {
     padding-left: @site-padding;
     padding-right: @site-padding;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /*-----placeholder-----*/

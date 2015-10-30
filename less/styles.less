@@ -69,15 +69,24 @@ mark{
     padding: 0 @site-padding / 2;
 }
 .center-el{ text-align: center;}
+
 .container {
     height: 100%;
     position: relative;
 }
-
+.content {
+    height: calc(~'100vh -' 190px);
+}
 
 
 @import "variables.less";
 
+@import "banner.less";
+@import "btn.less";
+@import "checkbox.less";
+@import "form.less";
+@import "footer.less";
+@import "input.less";
 @import "header.less";
 @import "man.less";
 @import "pooUp.less";
