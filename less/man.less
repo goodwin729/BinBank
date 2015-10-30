@@ -4,7 +4,9 @@
     right: 0;
     &__question {
     }
-    &__img {}
+    &__image {
+        height: calc(~'100vh -' 100px);
+    }
     &__trigger {
         background-color: @white;
         border-radius: 50%;
@@ -18,7 +20,7 @@
         padding: @site-padding;
         position: absolute;
         text-align: center;
-        top: 150px;
+        top: 100px;
         width: @site-padding * 4;
     }
     &__modal {}

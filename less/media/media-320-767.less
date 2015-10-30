@@ -1,190 +1,84 @@
 /* Max width 767px */
 @media only screen and (min-width: 320px) and (max-width: 767px){
-    h2 {
-        font-size: 40px;
-        line-height: 45px;
+    body {
+        background-image: url("../img/bg-gen-mobile.jpg");
+        background-size: auto;
+        height: auto;
+    }
+    .content {
+        height: auto;
     }
     .header {
-        background-color: rgba(000, 000, 000, .2);
-        .social{
-            display: none;
+        &__logo img{
+            width: 120px;
         }
-        &.open {
-            &:after {
-                display: block;
-            }
-            .navigation__list {
-                left: 0;
-                z-index: 5;
-                width: 100%;
-            }
-        }
-    }
-    .navigation {
-        &__button {
-            float: right;
-        }
-        &__item {
-            font-size: 20px;
-        }
-    }
-    .back {
-        h1 {
-            font-size: 30px;
-            line-height: 30px;
-        }
-        h2 {
-            font-size: 20px;
-            line-height: 20px;
-        }
-        &__image {
-            height: 100vh;
-            left: auto;
-            right: 0;
-            width: auto;
-            .monochrome-static;
-        }
-    }
-    .top {
-        .row {
-            margin-left: 0;
-            margin-right: 0;
-        }
-        &__item-link {
-            .btn {
+        &__number {
+            font-size: 16px;
+            &:before {
                 display: none;
             }
         }
-        &__hidden {
-            display: none;
-            opacity: 0;
-            &-text {
-                font-size: 14px;
-                height: 100px;
-            }
+    }
+    .man {
+        position: relative;
+        text-align: right;
+        &__trigger {
+            left: 20px;
+            top: 20px;
         }
     }
-    .banner-news {
-        &__info {
+    .banner {
+        padding-bottom: 0;
+        &__img {
+            float: none;
             width: 100%;
-            &_list {
-                float: none;
-                margin: 0;
-                width: auto;
-            }
-            &_item {
-                height: @site-padding * 6;
-                padding: 0;
-                width: 33.3333%;
-            }
-            &_tab {
-                font-size: @site-padding * 3;
-                line-height: @site-padding * 4;
-            }
-            &_icon {
-                font-size: @site-padding * 4;
-            }
-            &_sub {
-                font-size: 10px;
-                text-transform: uppercase;
-            }
-            &_content {
-                height: 300px;
-                width: 100%;
-                &_text {
-                    height: 180px;
-                    overflow: auto;
-                }
-                .comments {
-                    height: 240px;
-                }
-            }
-            &__nav {
-            }
-        }
-    }
-    .sticker {
-        &__item {
-            margin-top: @site-padding;
-            overflow: hidden;
         }
         &__title {
-            margin-bottom: 0;
+            font-size: 60px;
+        }
+    }
+    .modal {
+        &-dialog {
+            width: auto;
+        }
+    }
+    .form {
+        &__title {
+            font-size: 21px;
+            font-family: @brand-font;
+            line-height: 24px;
+            padding-top: 0;
+            text-align: center;
+        }
+        &__item {
+            width: 100%;
+        }
+        &__hint {
+            left: 0;
+            position: relative;
+            top: 0;
+        }
+    }
+    .tariff {
+        &__item {
+            float: none;
+            overflow: hidden;
+            padding-bottom: @site-padding * 2;
+            width: 100%
+        }
+        &__ico {
+            float: left;
+            margin-right: @site-padding;
         }
         &__text {
-            display: none;
-        }
-        &__icon {
-            height: @site-padding * 5 + @site-padding / 3;
-            width:  @site-padding * 5 + @site-padding / 3;
-            > *{
-                font-size: @site-padding * 3 + @site-padding / 3;
-                margin: 0;
-            }
+            margin-top: 0;
+            overflow: hidden;
+            padding-top: 0;
+            text-align: left;
         }
     }
-    .carousel {
-        &-inner {
-            //height: @site-column * 7;
-        }
-        &-cards {
-            .row {
-                margin: 0;
-            }
-        }
-        &-caption {
-            display: none;
-        }
-        &-image {
-            left: 0;
-            width: 100%;
-        }
-        .carousel-indicators {
-            bottom: -@site-column;
-            li {
-                border-color: @white;
-                &.active {
-                    background-color: @white;
-                }
-            }
-        }
-    }
-    .slider {
-        &-big {
-            height: @site-column * 7;
-        }
-    }
-    .agents {
-        .row {
-            margin-left: 0;
-            margin-right: 0;
-        }
-        &__hidden {
-            bottom: 0;
-            margin: 0;
-            opacity: 1;
-            top: auto;
-            width: 100%;
-            &-text {
-                vertical-align: bottom;
-            }
-        }
-        &__image {
-        }
-        &__btn {
-            margin: 0;
-            margin-top: @site-padding;
-            min-width: 100%;
-            &-zoom {
-                display: none;
-            }
-        }
-    }
-    .visitCard:hover,
-    .visitCard.active {
+    .footer {
         background-color: @white;
-    }
-    .owl-controls {
-        display: none;
+        opacity: 0.8;
     }
 }

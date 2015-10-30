@@ -6,19 +6,22 @@ $('#modalVideo').on('man__trigger', function () {
 $('#modalTariff').on('footer__link', function () {
     $('#modalTariff').focus()
 });
+$('#modalAgreement').on('checkbox__label', function () {
+    $('#modalAgreement').focus()
+});
 /*----------------
- tabs
+ scroll
  ----------------*/
-$('.banner-news__info_tab').click(function (e) {
-    e.preventDefault()
-    $('.tab-pane').tab('show')
+$(window).load(function(){
+    $(".getScroll").mCustomScrollbar({
+    });
 });
 
 
 
-$( ".checkbox" ).click(function() {
+/*$( ".checkbox" ).click(function() {
     $( '.checkbox' ).toggleClass( "active" );
-});
+});*/
 
 
 

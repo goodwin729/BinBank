@@ -1,10 +1,14 @@
 .modal {
-    &-dialog {}
+    &-dialog {
+        width: 700px;
+    }
     &-content {
         border-color: transparent;
         overflow: hidden;
     }
     &-header {
+        border-bottom: none;
+        padding: @site-padding * 2 0;
         text-align: center;
     }
     &-title {
@@ -30,5 +34,12 @@
     }
     &-blank {
         width: 100%;
+    }
+    &-scroll {
+        height: calc(~'100vh -' 260px);
+        overflow: hidden;
+        margin-bottom: @site-padding * 2;
+        padding: @site-padding * 2;
+        text-align: left;
     }
 }

@@ -266,7 +266,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: 'Segoe UI', serif;
+  font-family: 'AvenirLight';
   font-size: 14px;
   line-height: 1.428571429;
   color: #000000;
@@ -5819,6 +5819,20 @@ td.visible-print {
     display: none !important;
   }
 }
+@font-face {
+  font-family: "AvenirDemi";
+  src: url("../fonts/AvenirNextCyr-Demi.eot");
+  src: url("../fonts/AvenirNextCyr-Demi.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Demi.woff") format("woff"), url("../fonts/AvenirNextCyr-Demi.ttf") format("truetype"), url("../fonts/AvenirNextCyr-Demi.svg#RexBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AvenirLight";
+  src: url("../fonts/AvenirNextCyr-Light.eot");
+  src: url("../fonts/AvenirNextCyr-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Light.woff") format("woff"), url("../fonts/AvenirNextCyr-Light.ttf") format("truetype"), url("../fonts/AvenirNextCyr-Light.svg#RexBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 a {
   color: #555555;
   text-decoration: underline;
@@ -5875,7 +5889,7 @@ h5 {
   font-size: 16px;
 }
 .brand-font {
-  font-family: 'Segoe UI', serif;
+  font-family: 'AvenirDemi', serif;
 }
 mark {
   background: none;
@@ -5899,7 +5913,7 @@ body,
 html {
   background: url("../img/bg-gen.jpg") no-repeat center top;
   background-size: cover;
-  font-family: 'Segoe UI', serif;
+  font-family: 'AvenirLight';
   height: 100%;
   position: relative;
   -webkit-box-sizing: border-box;
@@ -5941,18 +5955,18 @@ input:-ms-input-placeholder {
   text-overflow: ellipsis;
 }
 ::-webkit-input-placeholder {
-  color: #dddddd;
+  color: #555555;
 }
 ::-moz-placeholder {
-  color: #dddddd;
+  color: #555555;
 }
 /* Firefox 19+ */
 :-moz-placeholder {
-  color: #dddddd;
+  color: #555555;
 }
 /* Firefox 18- */
 :-ms-input-placeholder {
-  color: #dddddd;
+  color: #555555;
 }
 .transition-0_5s {
   transition: all 0.5s;
@@ -6046,7 +6060,7 @@ input:-ms-input-placeholder {
   top: 5px;
   width: 20px;
 }
-.checkbox.active:after {
+.checkbox:after {
   content: "";
   background: url("../img/ico-check.png") no-repeat 0 0;
   border-radius: 3px;
@@ -6060,9 +6074,14 @@ input:-ms-input-placeholder {
   display: none;
 }
 .checkbox__label {
+  border-bottom: #555555 1px dashed;
+  display: inline;
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
+}
+.checkbox__label:hover {
+  border-bottom: none;
 }
 .form__title {
   display: block;
@@ -6088,7 +6107,7 @@ input:-ms-input-placeholder {
   display: block;
 }
 .form__hint {
-  bottom: -30px;
+  bottom: -15px;
   display: block;
   font-size: 12px;
   font-weight: 300;
@@ -6097,7 +6116,9 @@ input:-ms-input-placeholder {
   left: 315px;
 }
 .footer {
-  padding: 15px 0;
+  clear: both;
+  padding: 15px;
+  position: relative;
 }
 .footer__link {
   color: #000000;
@@ -6129,7 +6150,7 @@ input:-ms-input-placeholder {
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 5;
 }
 .input__item {
   background-color: transparent;
@@ -6180,6 +6201,9 @@ input:-ms-input-placeholder {
   position: absolute;
   right: 0;
 }
+.man__image {
+  height: calc(100vh - 100px);
+}
 .man__trigger {
   background-color: #ffffff;
   border-radius: 50%;
@@ -6193,14 +6217,19 @@ input:-ms-input-placeholder {
   padding: 15px;
   position: absolute;
   text-align: center;
-  top: 150px;
+  top: 100px;
   width: 60px;
+}
+.modal-dialog {
+  width: 700px;
 }
 .modal-content {
   border-color: transparent;
   overflow: hidden;
 }
 .modal-header {
+  border-bottom: none;
+  padding: 30px 0;
   text-align: center;
 }
 .modal-title {
@@ -6226,4 +6255,150 @@ input:-ms-input-placeholder {
 }
 .modal-blank {
   width: 100%;
+}
+.modal-scroll {
+  height: calc(100vh - 260px);
+  overflow: hidden;
+  margin-bottom: 30px;
+  padding: 30px;
+  text-align: left;
+}
+.tariff {
+  padding: 30px;
+  text-align: center;
+}
+.tariff__list {
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  padding-bottom: 30px;
+  width: 100%;
+}
+.tariff__item {
+  float: left;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 15px;
+  text-align: center;
+  width: 33.333333333333336%;
+}
+.tariff__text {
+  display: block;
+  padding-top: 30px;
+  text-decoration: none;
+}
+.tariff__info {
+  font-size: 12px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .banner {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+}
+/* Design for a width of 740px for Tablet (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+  .banner {
+    padding-bottom: 0;
+  }
+  .banner__img {
+    display: block;
+    float: none;
+  }
+  .form__title {
+    font-family: 'AvenirDemi';
+    font-size: 25px;
+    line-height: 30px;
+    padding-top: 0;
+  }
+  .form__item {
+    float: none;
+    width: 45%;
+  }
+  .form__hint {
+    left: 0;
+    position: relative;
+    top: 0;
+  }
+  .man__trigger {
+    left: 130px;
+    top: 150px;
+  }
+}
+/* Max width 767px */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  body {
+    background-image: url("../img/bg-gen-mobile.jpg");
+    background-size: auto;
+    height: auto;
+  }
+  .content {
+    height: auto;
+  }
+  .header__logo img {
+    width: 120px;
+  }
+  .header__number {
+    font-size: 16px;
+  }
+  .header__number:before {
+    display: none;
+  }
+  .man {
+    position: relative;
+    text-align: right;
+  }
+  .man__trigger {
+    left: 20px;
+    top: 20px;
+  }
+  .banner {
+    padding-bottom: 0;
+  }
+  .banner__img {
+    float: none;
+    width: 100%;
+  }
+  .banner__title {
+    font-size: 60px;
+  }
+  .modal-dialog {
+    width: auto;
+  }
+  .form__title {
+    font-size: 21px;
+    font-family: 'AvenirDemi', serif;
+    line-height: 24px;
+    padding-top: 0;
+    text-align: center;
+  }
+  .form__item {
+    width: 100%;
+  }
+  .form__hint {
+    left: 0;
+    position: relative;
+    top: 0;
+  }
+  .tariff__item {
+    float: none;
+    overflow: hidden;
+    padding-bottom: 30px;
+    width: 100%;
+  }
+  .tariff__ico {
+    float: left;
+    margin-right: 15px;
+  }
+  .tariff__text {
+    margin-top: 0;
+    overflow: hidden;
+    padding-top: 0;
+    text-align: left;
+  }
+  .footer {
+    background-color: #ffffff;
+    opacity: 0.8;
+  }
 }
