@@ -22,6 +22,8 @@
 @brand-color: #f58622;
 @brand-color-dark: #e38500;
 
+@blue: #6bade5;
+
 
 @body-bg: @white;
 @input-color:@gray;
@@ -37,6 +39,23 @@ body,html{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+body {
+    &:before {
+        content: "";
+        background: @white;
+        display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 50%;
+        z-index: 1;
+    }
+    > * {
+        position: relative;
+        z-index: 2;
+    }
 }
 .container {
     padding-left: @site-padding;

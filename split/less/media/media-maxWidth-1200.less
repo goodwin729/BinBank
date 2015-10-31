@@ -4,10 +4,22 @@
     .banner {
         padding-bottom: 0;
         padding-top: 0;
+        &__img {
+            width: 250px;
+        }
     }
-    .man {
-        &__image {
-            //height: 500px;
+    .form {
+        &__item {
+            padding-bottom: 0;
+        }
+    }
+    .steps {
+        &__item {
+            margin-top: 0;
+            &:before {
+                height: @site-padding;
+                top: -10px;
+            }
         }
     }
 }

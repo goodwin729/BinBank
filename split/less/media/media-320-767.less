@@ -1,9 +1,12 @@
 /* Max width 767px */
 @media only screen and (min-width: 320px) and (max-width: 767px){
-    body {
-        background-image: url("../img/bg-gen-mobile.jpg");
+    html, body {
+        background-image: none;
         background-size: auto;
         height: auto;
+        &:before {
+            display: none;
+        }
     }
     .content {
         height: auto;
@@ -75,6 +78,16 @@
             overflow: hidden;
             padding-top: 0;
             text-align: left;
+        }
+    }
+    .steps {
+        background: url("../img/bg-gen-mobile.jpg") no-repeat center 0;
+        margin: 0 -@site-padding * 2;
+        padding: @site-padding * 2 0;
+        position: relative;
+        width: calc(~'100% +' @site-padding * 4);
+        &__item {
+            width: calc(~'100% -' @site-padding * 2);
         }
     }
     .footer {

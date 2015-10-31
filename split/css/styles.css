@@ -5834,7 +5834,7 @@ td.visible-print {
   font-style: normal;
 }
 a {
-  color: #555555;
+  color: #6bade5;
   text-decoration: underline;
 }
 a:hover {
@@ -5919,6 +5919,21 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+body:before {
+  content: "";
+  background: #ffffff;
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  z-index: 1;
+}
+body > * {
+  position: relative;
+  z-index: 2;
 }
 .container {
   padding-left: 15px;
@@ -6007,10 +6022,6 @@ input:-ms-input-placeholder {
   padding-bottom: 30px;
   padding-top: 30px;
 }
-.banner__img {
-  float: left;
-  margin-right: 30px;
-}
 .banner__title {
   display: block;
   font-size: 73px;
@@ -6094,6 +6105,7 @@ input:-ms-input-placeholder {
 .form__list {
   list-style: none;
   margin: -15px;
+  margin-bottom: 15px;
   overflow: hidden;
   padding: 0;
   position: relative;
@@ -6107,13 +6119,11 @@ input:-ms-input-placeholder {
   display: block;
 }
 .form__hint {
-  bottom: -15px;
   display: block;
   font-size: 12px;
   font-weight: 300;
   line-height: 16px;
-  position: absolute;
-  left: 315px;
+  position: relative;
 }
 .footer {
   clear: both;
@@ -6121,7 +6131,7 @@ input:-ms-input-placeholder {
   position: relative;
 }
 .footer__link {
-  color: #000000;
+  color: #6bade5;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -6199,7 +6209,7 @@ input:-ms-input-placeholder {
 .man {
   bottom: 0;
   position: absolute;
-  right: 0;
+  right: 50%;
 }
 .man__image {
   height: calc(100vh - 100px);
@@ -6252,6 +6262,7 @@ input:-ms-input-placeholder {
 .modal-text {
   color: #555555;
   font-size: 16px;
+  padding: 0 15px;
 }
 .modal-blank {
   width: 100%;
@@ -6284,6 +6295,7 @@ input:-ms-input-placeholder {
   width: 33.333333333333336%;
 }
 .tariff__text {
+  color: #000000;
   display: block;
   padding-top: 30px;
   text-decoration: none;
@@ -6291,14 +6303,77 @@ input:-ms-input-placeholder {
 .tariff__info {
   font-size: 12px;
 }
+.steps {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.steps__list {
+  display: table-cell;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+.steps__item {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px;
+  position: relative;
+  width: 340px;
+}
+.steps__item:before {
+  content: "";
+  background-color: #dddddd;
+  display: block;
+  height: 30px;
+  left: 50%;
+  position: absolute;
+  top: -30px;
+  width: 1px;
+}
+.steps__item:first-child {
+  margin-top: 0;
+}
+.steps__item:first-child:before {
+  display: none;
+}
+.steps__text {
+  margin: 0;
+  padding-top: 15px;
+}
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .banner {
     padding-bottom: 0;
     padding-top: 0;
   }
+  .banner__img {
+    width: 250px;
+  }
+  .form__item {
+    padding-bottom: 0;
+  }
+  .steps__item {
+    margin-top: 0;
+  }
+  .steps__item:before {
+    height: 15px;
+    top: -10px;
+  }
 }
 /* Design for a width of 740px for Tablet (Portrait) */
 @media only screen and (min-width: 768px) and (max-width: 989px) {
+  html,
+  body {
+    background-image: none;
+    background-size: auto;
+    height: auto;
+  }
+  html:before,
+  body:before {
+    display: none;
+  }
   .banner {
     padding-bottom: 0;
   }
@@ -6314,24 +6389,49 @@ input:-ms-input-placeholder {
   }
   .form__item {
     float: none;
-    width: 45%;
+    width: 40%;
   }
   .form__hint {
     left: 0;
     position: relative;
     top: 0;
   }
+  .man {
+    bottom: auto;
+    margin-right: 0 !important;
+    right: 0;
+    top: 105px;
+  }
   .man__trigger {
     left: 130px;
     top: 150px;
   }
+  .steps {
+    background: url("../img/bg-gen.jpg") no-repeat center 0;
+    margin: 0 -30px;
+    padding: 30px 0;
+    position: relative;
+    width: calc(100% + 60px);
+  }
+  .steps__item {
+    width: 100%;
+  }
+  .steps__text {
+    margin: 0 auto;
+    width: 320px;
+  }
 }
 /* Max width 767px */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+  html,
   body {
-    background-image: url("../img/bg-gen-mobile.jpg");
+    background-image: none;
     background-size: auto;
     height: auto;
+  }
+  html:before,
+  body:before {
+    display: none;
   }
   .content {
     height: auto;
@@ -6396,6 +6496,16 @@ input:-ms-input-placeholder {
     overflow: hidden;
     padding-top: 0;
     text-align: left;
+  }
+  .steps {
+    background: url("../img/bg-gen-mobile.jpg") no-repeat center 0;
+    margin: 0 -30px;
+    padding: 30px 0;
+    position: relative;
+    width: calc(100% + 60px);
+  }
+  .steps__item {
+    width: calc(100% - 30px);
   }
   .footer {
     background-color: #ffffff;
