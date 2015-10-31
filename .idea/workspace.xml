@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="239ecf5b-4083-4c4b-b19d-fe05e7f1d83b" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\dev\BinBank\full\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\BinBank\full\.idea\code.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\BinBank\full\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\BinBank\full\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\BinBank\full\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\BinBank\full\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\BinBank\full\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\BinBank\full\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\BinBank\split\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\BinBank\split\.idea\code.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\BinBank\split\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\BinBank\split\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\BinBank\split\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\BinBank\split\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\BinBank\split\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\BinBank\split\.idea\workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/banner.less" afterPath="$PROJECT_DIR$/split/less/banner.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/footer.less" afterPath="$PROJECT_DIR$/split/less/footer.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/form.less" afterPath="$PROJECT_DIR$/split/less/form.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/html/index.html" afterPath="$PROJECT_DIR$/split/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/man.less" afterPath="$PROJECT_DIR$/split/less/man.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/media/media-320-767.less" afterPath="$PROJECT_DIR$/split/less/media/media-320-767.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/media/media-768-959.less" afterPath="$PROJECT_DIR$/split/less/media/media-768-959.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/media/media-maxWidth-1200.less" afterPath="$PROJECT_DIR$/split/less/media/media-maxWidth-1200.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/pooUp.less" afterPath="$PROJECT_DIR$/split/less/pooUp.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/js/scripts.js" afterPath="$PROJECT_DIR$/split/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/css/styles.css" afterPath="$PROJECT_DIR$/split/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/styles.less" afterPath="$PROJECT_DIR$/split/less/styles.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/tariff.less" afterPath="$PROJECT_DIR$/split/less/tariff.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/variables.less" afterPath="$PROJECT_DIR$/split/less/variables.less" />
     </list>
     <ignored path="BinBank.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,7 +55,7 @@
       <file leaf-file-name="media-768-959.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/split/less/media/media-768-959.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="21" selection-start="647" selection-end="647" vertical-scroll-proportion="0.33271027" vertical-offset="298" max-vertical-offset="1156">
+            <state line="35" column="12" selection-start="773" selection-end="773" vertical-scroll-proportion="0.5551402" vertical-offset="298" max-vertical-offset="1156">
               <folding />
             </state>
           </provider>
@@ -194,16 +165,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="BinBank" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BinBank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BinBank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -512,7 +473,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/split/less/media/media-768-959.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="21" selection-start="647" selection-end="647" vertical-scroll-proportion="0.33271027" vertical-offset="298" max-vertical-offset="1156">
+        <state line="35" column="12" selection-start="773" selection-end="773" vertical-scroll-proportion="0.5551402" vertical-offset="298" max-vertical-offset="1156">
           <folding />
         </state>
       </provider>
