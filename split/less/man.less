@@ -1,0 +1,27 @@
+.man {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    &__question {
+    }
+    &__image {
+        height: calc(~'100vh -' 100px);
+    }
+    &__trigger {
+        background-color: @white;
+        border-radius: 50%;
+        box-shadow: 0 2px 10px @gray;
+        color: @brand-color;
+        cursor: pointer;
+        font-size: 30px;
+        height: @site-padding * 4;
+        line-height: 30px;
+        left: -50px;
+        padding: @site-padding;
+        position: absolute;
+        text-align: center;
+        top: 100px;
+        width: @site-padding * 4;
+    }
+    &__modal {}
+}

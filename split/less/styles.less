@@ -1,0 +1,120 @@
+@import "bootstrap/bootstrap.less";
+@font-face {
+    font-family: "AvenirDemi";
+    src: url("../fonts/AvenirNextCyr-Demi.eot");
+    src: url("../fonts/AvenirNextCyr-Demi.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/AvenirNextCyr-Demi.woff") format("woff"),
+    url("../fonts/AvenirNextCyr-Demi.ttf") format("truetype"),
+    url("../fonts/AvenirNextCyr-Demi.svg#RexBold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "AvenirLight";
+    src: url("../fonts/AvenirNextCyr-Light.eot");
+    src: url("../fonts/AvenirNextCyr-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/AvenirNextCyr-Light.woff") format("woff"),
+    url("../fonts/AvenirNextCyr-Light.ttf") format("truetype"),
+    url("../fonts/AvenirNextCyr-Light.svg#RexBold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+    color: @gray-dark;
+    text-decoration: underline;
+    &:hover{
+        color: @gray-dark;
+        text-decoration: none;
+        transition: 0.25s;
+    }
+    &:not(:hover) {
+        transition: 0.25s;
+    }
+}
+p {
+    margin: @site-padding / 2 0;
+}
+b, strong {
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+.form-control {
+    box-shadow: none;
+}
+
+.left{ float: left;}
+.right{ float: right;}
+label{
+    font-weight: normal;
+}
+textarea:focus,
+input:focus{
+    box-shadow: none;
+}
+*:focus,
+*:visited,
+a:focus{
+    outline: none;
+    text-decoration: none;
+}
+/*---------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: @black;
+    margin: 0;
+}
+h1{
+}
+h2{
+}
+h3{
+}
+h4{
+}
+h5{
+    font-size: 16px;
+}
+.brand-font{ font-family: @brand-font;}
+
+mark{
+    background: none;
+    color: @brand-color;
+    padding: 0 @site-padding / 2;
+}
+.center-el{ text-align: center;}
+
+.container {
+    height: 100%;
+    position: relative;
+}
+.content {
+    height: calc(~'100vh -' 190px);
+}
+
+
+@import "variables.less";
+
+@import "banner.less";
+@import "btn.less";
+@import "checkbox.less";
+@import "form.less";
+@import "footer.less";
+@import "input.less";
+@import "header.less";
+@import "man.less";
+@import "pooUp.less";
+@import "tariff.less";
+
+@import "media/media-maxWidth-1200.less";
+@import "media/media-768-959.less";
+@import "media/media-320-767.less";
+//@import "media-601-767.less";
+//@import "media-maxWidth-600.less";
+//@import "media-ipad-portrait768.less";
+//@import "media-ipad-landscape1024.less";
