@@ -14,6 +14,7 @@ $('#modalAgreement').on('checkbox__label', function () {
  ----------------*/
 $(window).load(function(){
     $(".getScroll").mCustomScrollbar({
+        theme:"dark"
     });
 });
 

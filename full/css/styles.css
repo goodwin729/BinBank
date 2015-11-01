@@ -6107,13 +6107,13 @@ input:-ms-input-placeholder {
   display: block;
 }
 .form__hint {
-  bottom: -15px;
+  bottom: -20px;
   display: block;
   font-size: 12px;
   font-weight: 300;
   line-height: 16px;
   position: absolute;
-  left: 315px;
+  left: 325px;
 }
 .footer {
   clear: both;
@@ -6122,13 +6122,12 @@ input:-ms-input-placeholder {
 }
 .footer__link {
   color: #000000;
+  font-family: 'AvenirDemi', serif;
   font-size: 16px;
-  font-weight: 600;
   line-height: 24px;
 }
 .footer__copy {
   font-size: 12px;
-  font-weight: 600;
   line-height: 24px;
 }
 .input {
@@ -6183,6 +6182,7 @@ input:-ms-input-placeholder {
 }
 .header__number {
   display: block;
+  font-family: 'AvenirDemi', serif;
   font-size: 24px;
   line-height: 30px;
   position: relative;
@@ -6200,6 +6200,9 @@ input:-ms-input-placeholder {
   bottom: 0;
   position: absolute;
   right: 0;
+}
+.man__question {
+  font-family: 'AvenirDemi', serif;
 }
 .man__image {
   height: calc(100vh - 100px);
@@ -6260,6 +6263,7 @@ input:-ms-input-placeholder {
   height: calc(100vh - 260px);
   overflow: hidden;
   margin-bottom: 30px;
+  margin-right: -15px;
   padding: 30px;
   text-align: left;
 }
@@ -6290,6 +6294,15 @@ input:-ms-input-placeholder {
 }
 .tariff__info {
   font-size: 12px;
+}
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+  .header {
+    padding-top: 15px;
+  }
+  .banner {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .banner {
@@ -6378,6 +6391,7 @@ input:-ms-input-placeholder {
   }
   .form__hint {
     left: 0;
+    margin-top: 15px;
     position: relative;
     top: 0;
   }
