@@ -5833,6 +5833,15 @@ td.visible-print {
   font-weight: normal;
   font-style: normal;
 }
+.device {
+  display: none;
+}
+.desktop {
+  display: block;
+}
+.mobile-block {
+  display: none;
+}
 a {
   color: #555555;
   text-decoration: underline;
@@ -5844,6 +5853,13 @@ a:hover {
 }
 a:not(:hover) {
   transition: 0.25s;
+}
+*:focus,
+*:visited,
+a:focus {
+  color: #555555;
+  outline: none;
+  text-decoration: none;
 }
 p {
   margin: 7.5px 0;
@@ -5868,12 +5884,6 @@ label {
 textarea:focus,
 input:focus {
   box-shadow: none;
-}
-*:focus,
-*:visited,
-a:focus {
-  outline: none;
-  text-decoration: none;
 }
 /*---------------*/
 h1,
@@ -6087,8 +6097,8 @@ input:-ms-input-placeholder {
   display: block;
   font-size: 48px;
   font-weight: 300;
-  line-height: 56px;
-  padding: 30px 0;
+  line-height: 50px;
+  padding: 30px 0 15px 0;
   text-transform: uppercase;
 }
 .form__list {
@@ -6107,13 +6117,23 @@ input:-ms-input-placeholder {
   display: block;
 }
 .form__hint {
-  bottom: -20px;
   display: block;
   font-size: 12px;
   font-weight: 300;
   line-height: 16px;
+  padding-top: 5px;
+  position: relative;
+}
+.form__hint:before {
+  content: "*";
+  color: #ff0000;
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  left: -15px;
   position: absolute;
-  left: 325px;
+  top: 6px;
 }
 .footer {
   clear: both;
@@ -6238,6 +6258,7 @@ input:-ms-input-placeholder {
 .modal-title {
   color: #555555;
   font-size: 24px;
+  font-family: 'AvenirDemi', serif;
   text-transform: uppercase;
 }
 .modal-body {
@@ -6263,8 +6284,10 @@ input:-ms-input-placeholder {
   height: calc(100vh - 260px);
   overflow: hidden;
   margin-bottom: 30px;
+  margin-left: 15px;
   margin-right: -15px;
-  padding: 30px;
+  margin-top: 0;
+  padding: 0 30px 30px 30px;
   text-align: left;
 }
 .tariff {
@@ -6312,6 +6335,12 @@ input:-ms-input-placeholder {
 }
 /* Design for a width of 740px for Tablet (Portrait) */
 @media only screen and (min-width: 768px) and (max-width: 989px) {
+  .device {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
   .banner {
     padding-bottom: 0;
   }
@@ -6323,10 +6352,11 @@ input:-ms-input-placeholder {
     font-family: 'AvenirDemi';
     font-size: 25px;
     line-height: 30px;
-    padding-top: 0;
+    padding-bottom: 60px;
   }
   .form__item {
     float: none;
+    padding-bottom: 0;
     width: 45%;
   }
   .form__hint {
@@ -6338,9 +6368,30 @@ input:-ms-input-placeholder {
     left: 130px;
     top: 150px;
   }
+  .man__image {
+    height: calc(100vh - 140px);
+  }
+  .tariff__item-desctop {
+    display: none;
+  }
+  .tariff__item-device {
+    display: block;
+  }
 }
 /* Max width 767px */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+  .device {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile-none {
+    display: none;
+  }
+  .mobile-block {
+    display: block;
+  }
   body {
     background-image: url("../img/bg-gen-mobile.jpg");
     background-size: auto;
@@ -6348,6 +6399,9 @@ input:-ms-input-placeholder {
   }
   .content {
     height: auto;
+  }
+  .header {
+    padding: 15px 0;
   }
   .header__logo img {
     width: 120px;
@@ -6367,7 +6421,7 @@ input:-ms-input-placeholder {
     top: 20px;
   }
   .banner {
-    padding-bottom: 0;
+    padding: 0 15px;
   }
   .banner__img {
     float: none;
@@ -6379,15 +6433,29 @@ input:-ms-input-placeholder {
   .modal-dialog {
     width: auto;
   }
+  .modal-blank {
+    margin: 15px;
+    margin-top: 0;
+    width: calc(100% - 30px);
+  }
+  .modal-text {
+    padding: 0 15px;
+  }
+  .form {
+    padding: 0;
+  }
   .form__title {
     font-size: 21px;
     font-family: 'AvenirDemi', serif;
     line-height: 24px;
     padding-top: 0;
-    text-align: center;
   }
   .form__item {
+    padding-bottom: 0;
     width: 100%;
+  }
+  .form__item.mobile-block {
+    text-align: center;
   }
   .form__hint {
     left: 0;
@@ -6395,15 +6463,32 @@ input:-ms-input-placeholder {
     position: relative;
     top: 0;
   }
+  .tariff {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+  }
+  .tariff__list {
+    padding: 0 15px;
+  }
   .tariff__item {
+    border-bottom: #dddddd 1px solid;
     float: none;
     overflow: hidden;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     width: 100%;
+  }
+  .tariff__item:last-child {
+    border-bottom: none;
+  }
+  .tariff__info {
+    padding: 0 15px;
+    text-align: left;
   }
   .tariff__ico {
     float: left;
     margin-right: 15px;
+    width: 30px;
   }
   .tariff__text {
     margin-top: 0;
@@ -6411,8 +6496,18 @@ input:-ms-input-placeholder {
     padding-top: 0;
     text-align: left;
   }
+  .modal-title {
+    font-size: 15px;
+  }
   .footer {
     background-color: #ffffff;
     opacity: 0.8;
+  }
+  .footer__copy {
+    text-align: center;
+  }
+  .footer__copy span {
+    display: block;
+    font-size: 16px;
   }
 }

@@ -1,5 +1,19 @@
 /* Max width 767px */
 @media only screen and (min-width: 320px) and (max-width: 767px){
+    .device {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        &-none {
+            display: none;
+        }
+        &-block {
+            display: block;
+        }
+    }
     body {
         background-image: url("../img/bg-gen-mobile.jpg");
         background-size: auto;
@@ -9,6 +23,7 @@
         height: auto;
     }
     .header {
+        padding: @site-padding 0;
         &__logo img{
             width: 120px;
         }
@@ -28,7 +43,7 @@
         }
     }
     .banner {
-        padding-bottom: 0;
+        padding: 0 @site-padding;
         &__img {
             float: none;
             width: 100%;
@@ -41,17 +56,29 @@
         &-dialog {
             width: auto;
         }
+        &-blank {
+            margin: @site-padding;
+            margin-top: 0;
+            width: calc(~'100% -' @site-padding * 2);
+        }
+        &-text {
+            padding: 0 @site-padding;
+        }
     }
     .form {
+        padding: 0;
         &__title {
             font-size: 21px;
             font-family: @brand-font;
             line-height: 24px;
             padding-top: 0;
-            text-align: center;
         }
         &__item {
+            padding-bottom: 0;
             width: 100%;
+            &.mobile-block {
+                text-align: center;
+            }
         }
         &__hint {
             left: 0;
@@ -61,15 +88,30 @@
         }
     }
     .tariff {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        &__list {
+            padding: 0 @site-padding;
+        }
         &__item {
+            border-bottom: @gray 1px solid;
             float: none;
             overflow: hidden;
-            padding-bottom: @site-padding * 2;
-            width: 100%
+            padding-bottom: @site-padding;
+            width: 100%;
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+        &__info {
+            padding: 0 @site-padding;
+            text-align: left;
         }
         &__ico {
             float: left;
             margin-right: @site-padding;
+            width: @site-padding * 2;
         }
         &__text {
             margin-top: 0;
@@ -78,8 +120,20 @@
             text-align: left;
         }
     }
+    .modal {
+        &-title {
+            font-size: 15px;
+        }
+    }
     .footer {
         background-color: @white;
         opacity: 0.8;
+        &__copy {
+            text-align: center;
+            span {
+                display: block;
+                font-size: 16px;
+            }
+        }
     }
 }

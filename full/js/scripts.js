@@ -16,6 +16,13 @@ $(window).load(function(){
     $(".getScroll").mCustomScrollbar({
         theme:"dark"
     });
+    $(window).resize(function() {
+        if(window.innerWidth > 768) {
+            initCustomScrollbar();
+        } else {
+            $('.getScroll').mCustomScrollbar("destroy");
+        }
+    });
 });
 
 

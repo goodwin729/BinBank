@@ -3,8 +3,8 @@
         display: block;
         font-size: 48px;
         font-weight: 300;
-        line-height: 56px;
-        padding: @site-padding * 2 0;
+        line-height: 50px;
+        padding: @site-padding * 2 0 @site-padding 0;
         text-transform: uppercase;
     }
     &__list {
@@ -23,12 +23,22 @@
         display: block;
     }
     &__hint {
-        bottom: -(@site-padding + 5px);
         display: block;
         font-size: 12px;
         font-weight: 300;
         line-height: 16px;
-        position: absolute;
-        left: @site-padding * 21 + 10px;
+        padding-top: 5px;
+        position: relative;
+        &:before {
+            content: "*";
+            color: @red;
+            display: block;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 16px;
+            left: -@site-padding;
+            position: absolute;
+            top: 6px;
+        }
     }
 }

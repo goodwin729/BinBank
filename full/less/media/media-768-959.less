@@ -2,6 +2,12 @@
 /* Design for a width of 740px for Tablet (Portrait) */
 
 @media only screen and (min-width: 768px) and (max-width: 989px){
+    .device {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
     .banner {
         padding-bottom: 0;
         &__img {
@@ -14,10 +20,11 @@
             font-family: 'AvenirDemi';
             font-size: 25px;
             line-height: 30px;
-            padding-top: 0;
+            padding-bottom: @site-padding * 4;
         }
         &__item {
             float: none;
+            padding-bottom: 0;
             width: 45%;
         }
         &__hint {
@@ -25,11 +32,26 @@
             position: relative;
             top: 0;
         }
+        &__btn {
+        }
     }
     .man {
         &__trigger {
             left: 130px;
             top: 150px;
+        }
+        &__image {
+            height: calc(~'100vh -' 140px);
+        }
+    }
+    .tariff {
+        &__item {
+            &-desctop {
+                display: none;
+            }
+            &-device {
+                display: block;
+            }
         }
     }
 }
