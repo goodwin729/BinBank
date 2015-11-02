@@ -16,6 +16,9 @@
             display: none;
         }
     }
+    .content {
+        height: auto;
+    }
     .banner {
         padding-bottom: 0;
         &__img {
@@ -24,6 +27,7 @@
         }
     }
     .form {
+        padding-bottom: @site-padding * 2;
         &__title {
             font-family: 'AvenirDemi';
             font-size: 25px;
@@ -47,11 +51,11 @@
         right: 0;
         top: 105px;
         &__trigger {
-            left: 130px;
-            top: 150px;
+            left: 60px;
+            top: 50px;
         }
         &__image {
-            height: calc(~'100vh -' 140px);
+            height: calc(~'100vh -' 100px);
         }
     }
     .tariff {
