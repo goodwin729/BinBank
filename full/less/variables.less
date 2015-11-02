@@ -90,15 +90,45 @@ input:-ms-input-placeholder {text-overflow:ellipsis;}
     -o-transform: rotate(45deg); /* Для Opera */
     transform: rotate(45deg);
 }
-
-.gradient {
-    background: #eee; /* Old browsers */
-    background: -moz-linear-gradient(top,  transparent 0%, #eee 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#eee)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  transparent 0%,#eee 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  transparent 0%,#eee 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  transparent 0%,#eee 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  transparent 0%,#eee 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='transparent', endColorstr='#eee',GradientType=0 ); /* IE6-9 */
-
+@keyframes fade_in_1 {
+    0%   {opacity: 0;}
+    50%  {opacity: 1;}
+    100% {opacity: 1;}
+}
+@keyframes fade_in_2 {
+    0%   {opacity: 0;}
+    25%  {opacity: 0;}
+    50%  {opacity: 1;}
+    100% {opacity: 1;}
+}
+@keyframes fade_in_3 {
+    0%   {opacity: 0;}
+    50%  {opacity: 0;}
+    75%  {opacity: 1;}
+    100% {opacity: 1;}
+}
+@keyframes fade_in_4 {
+    0%   {opacity: 0;}
+    75%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+.form__title {
+    animation-name: fade_in_1;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+.form__item {
+    animation-name: fade_in_2;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+.man {
+    animation-name: fade_in_3;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    &__trigger {
+        animation-name: fade_in_4;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+    }
 }
