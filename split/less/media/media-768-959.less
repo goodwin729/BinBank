@@ -2,6 +2,12 @@
 /* Design for a width of 740px for Tablet (Portrait) */
 
 @media only screen and (min-width: 768px) and (max-width: 989px){
+    .device {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
     html, body {
         background-image: none;
         background-size: auto;
@@ -26,6 +32,7 @@
         }
         &__item {
             float: none;
+            padding-bottom: 0;
             width: 40%;
         }
         &__hint {
@@ -42,6 +49,19 @@
         &__trigger {
             left: 130px;
             top: 150px;
+        }
+        &__image {
+            height: calc(~'100vh -' 140px);
+        }
+    }
+    .tariff {
+        &__item {
+            &-desctop {
+                display: none;
+            }
+            &-device {
+                display: block;
+            }
         }
     }
     .steps {

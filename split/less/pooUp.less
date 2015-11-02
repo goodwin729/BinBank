@@ -14,6 +14,7 @@
     &-title {
         color: @gray-dark;
         font-size: 24px;
+        font-family: @brand-font;
         text-transform: uppercase;
     }
     &-body {
@@ -31,7 +32,6 @@
     &-text {
         color: @gray-dark;
         font-size: 16px;
-        padding: 0 @site-padding;
     }
     &-blank {
         width: 100%;
@@ -40,7 +40,10 @@
         height: calc(~'100vh -' 260px);
         overflow: hidden;
         margin-bottom: @site-padding * 2;
-        padding: @site-padding * 2;
+        margin-left: @site-padding;
+        margin-right: -@site-padding;
+        margin-top: 0;
+        padding: 0 @site-padding * 2 @site-padding * 2 @site-padding * 2;
         text-align: left;
     }
 }
