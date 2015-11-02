@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="239ecf5b-4083-4c4b-b19d-fe05e7f1d83b" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\dev\Банк\БинБанк\BinBank\full\less\media\media-ipad-portrait768.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\Банк\БинБанк\BinBank\split\less\media\media-ipad-portrait768.less" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/footer.less" afterPath="$PROJECT_DIR$/split/less/footer.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/form.less" afterPath="$PROJECT_DIR$/split/less/form.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/header.less" afterPath="$PROJECT_DIR$/split/less/header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/html/index.html" afterPath="$PROJECT_DIR$/split/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/input.less" afterPath="$PROJECT_DIR$/split/less/input.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/man.less" afterPath="$PROJECT_DIR$/split/less/man.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/media/media-320-767.less" afterPath="$PROJECT_DIR$/split/less/media/media-320-767.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/media/media-768-959.less" afterPath="$PROJECT_DIR$/split/less/media/media-768-959.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/media/media-maxWidth-1200.less" afterPath="$PROJECT_DIR$/split/less/media/media-maxWidth-1200.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/pooUp.less" afterPath="$PROJECT_DIR$/split/less/pooUp.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/steps.less" afterPath="$PROJECT_DIR$/split/less/steps.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/css/styles.css" afterPath="$PROJECT_DIR$/split/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/styles.less" afterPath="$PROJECT_DIR$/split/less/styles.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/tariff.less" afterPath="$PROJECT_DIR$/split/less/tariff.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/variables.less" afterPath="$PROJECT_DIR$/split/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/img/bg-gen-mobile.jpg" afterPath="$PROJECT_DIR$/split/img/bg-gen-mobile.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/img/bg-gen.jpg" afterPath="$PROJECT_DIR$/split/img/bg-gen.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/img/ico-phone.png" afterPath="$PROJECT_DIR$/split/img/ico-phone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/js/scripts.js" afterPath="$PROJECT_DIR$/split/js/scripts.js" />
     </list>
     <ignored path="BinBank.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,11 +68,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="media-maxWidth-1200.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="media-maxWidth-1200.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/split/less/media/media-maxWidth-1200.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5419126" vertical-offset="0" max-vertical-offset="847">
+            <state vertical-scroll-proportion="-9.0" vertical-offset="0" max-vertical-offset="833">
               <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/split/js/scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5111359" vertical-offset="0" max-vertical-offset="898">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -106,7 +102,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/split/less/banner.less" />
-        <option value="$PROJECT_DIR$/split/js/scripts.js" />
         <option value="$PROJECT_DIR$/split/less/form.less" />
         <option value="$PROJECT_DIR$/split/less/tariff.less" />
         <option value="$PROJECT_DIR$/full/less/man.less" />
@@ -134,6 +129,7 @@
         <option value="$PROJECT_DIR$/split/less/media/media-320-767.less" />
         <option value="$PROJECT_DIR$/split/less/media/media-768-959.less" />
         <option value="$PROJECT_DIR$/split/less/media/media-maxWidth-1200.less" />
+        <option value="$PROJECT_DIR$/split/js/scripts.js" />
       </list>
     </option>
   </component>
@@ -214,6 +210,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BinBank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BinBank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="split" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -565,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/split/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <caret line="20" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/split/less/form.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37988827" vertical-offset="0" max-vertical-offset="646">
@@ -789,8 +796,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/split/less/media/media-maxWidth-1200.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5419126" vertical-offset="0" max-vertical-offset="847">
+        <state vertical-scroll-proportion="-9.0" vertical-offset="0" max-vertical-offset="833">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/split/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5111359" vertical-offset="0" max-vertical-offset="898">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>

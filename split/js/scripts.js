@@ -15,8 +15,17 @@ $('#modalAgreement').on('checkbox__label', function () {
  ----------------*/
 $(window).load(function(){
     $(".getScroll").mCustomScrollbar({
+        theme:"dark"
+    });
+    $(window).resize(function() {
+        if(window.innerWidth > 768) {
+            initCustomScrollbar();
+        } else {
+            $('.getScroll').mCustomScrollbar("destroy");
+        }
     });
 });
+
 
 setwidth = ($('.man').width() / -2);
 $( ".man" ).add().css( "margin-right", setwidth );
