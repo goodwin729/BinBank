@@ -6314,6 +6314,10 @@ input:-ms-input-placeholder {
 .modal-blank {
   width: 100%;
 }
+.modal-video {
+  height: 400px;
+  width: 100%;
+}
 .modal-scroll {
   height: calc(100vh - 260px);
   overflow: hidden;
@@ -6547,6 +6551,12 @@ input:-ms-input-placeholder {
   }
 }
 /* Max width 767px */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  -video {
+    height: 200px;
+    width: 100%;
+  }
+}
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .device {
     display: block;
