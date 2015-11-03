@@ -6346,6 +6346,11 @@ input:-ms-input-placeholder {
 .modal-blank {
   width: 100%;
 }
+.modal-video {
+  display: block;
+  height: 400px;
+  width: 100%;
+}
 .modal-scroll {
   height: calc(100vh - 260px);
   overflow: hidden;
@@ -6533,6 +6538,9 @@ input:-ms-input-placeholder {
   .banner__title {
     font-size: 60px;
   }
+  .modal-video {
+    height: 200px;
+  }
   .modal-dialog {
     width: auto;
   }
@@ -6547,6 +6555,9 @@ input:-ms-input-placeholder {
   .modal-scroll {
     margin-right: 15px;
     overflow: scroll;
+  }
+  .modal-title {
+    font-size: 15px;
   }
   .form {
     padding: 0;
@@ -6603,9 +6614,6 @@ input:-ms-input-placeholder {
     overflow: hidden;
     padding-top: 0;
     text-align: left;
-  }
-  .modal-title {
-    font-size: 15px;
   }
   .footer {
     background-color: #ffffff;

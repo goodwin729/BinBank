@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="239ecf5b-4083-4c4b-b19d-fe05e7f1d83b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full/html/index.html" afterPath="$PROJECT_DIR$/full/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full/less/media/media-320-767.less" afterPath="$PROJECT_DIR$/full/less/media/media-320-767.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full/less/pooUp.less" afterPath="$PROJECT_DIR$/full/less/pooUp.less" />
     </list>
     <ignored path="BinBank.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +27,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/split/html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="36" selection-start="1191" selection-end="1325" vertical-scroll-proportion="-11.0" vertical-offset="139" max-vertical-offset="4692">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/full/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="81" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.6812386" vertical-offset="0" max-vertical-offset="4114">
+            <state line="25" column="122" selection-start="1250" selection-end="1256" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="4114">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="media-320-767.less" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/full/less/media/media-320-767.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="26" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.3984375" vertical-offset="799" max-vertical-offset="2686">
               <folding />
             </state>
           </provider>
@@ -95,7 +115,6 @@
         <option value="$PROJECT_DIR$/full/less/man.less" />
         <option value="$PROJECT_DIR$/full/less/footer.less" />
         <option value="$PROJECT_DIR$/full/less/tariff.less" />
-        <option value="$PROJECT_DIR$/full/less/pooUp.less" />
         <option value="$PROJECT_DIR$/full/less/styles.less" />
         <option value="$PROJECT_DIR$/full/js/scripts.js" />
         <option value="$PROJECT_DIR$/full/less/media/media-maxWidth-1200.less" />
@@ -118,11 +137,12 @@
         <option value="$PROJECT_DIR$/split/less/variables.less" />
         <option value="$PROJECT_DIR$/split/less/tariff.less" />
         <option value="$PROJECT_DIR$/split/less/media/media-320-767.less" />
-        <option value="$PROJECT_DIR$/full/less/media/media-320-767.less" />
         <option value="$PROJECT_DIR$/full/less/media/media-768-959.less" />
         <option value="$PROJECT_DIR$/full/less/header.less" />
         <option value="$PROJECT_DIR$/full/less/form.less" />
         <option value="$PROJECT_DIR$/full/html/index.html" />
+        <option value="$PROJECT_DIR$/full/less/pooUp.less" />
+        <option value="$PROJECT_DIR$/full/less/media/media-320-767.less" />
       </list>
     </option>
   </component>
@@ -175,6 +195,68 @@
               <option name="myItemId" value="BinBank" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="split" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BinBank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BinBank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="split" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BinBank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BinBank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="split" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BinBank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BinBank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="split" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -213,24 +295,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BinBank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BinBank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="full" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -332,13 +396,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/split/less/media/media-768-979.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="18" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1751">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/split/less/media/media-980-1199.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="5" selection-start="122" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="850">
@@ -587,30 +644,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/split/less/pooUp.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="23" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/split/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="263" column="41" selection-start="16325" selection-end="16325" vertical-scroll-proportion="0.5974499" vertical-offset="4143" max-vertical-offset="4692">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/split/less/form.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="25" selection-start="647" selection-end="647" vertical-scroll-proportion="0.49348232" vertical-offset="228" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/split/less/media/media-320-767.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="17" selection-start="3234" selection-end="3265" vertical-scroll-proportion="0.6014898" vertical-offset="2278" max-vertical-offset="3111">
           <folding />
         </state>
       </provider>
@@ -636,13 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/full/less/media/media-320-767.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="26" selection-start="787" selection-end="787" vertical-scroll-proportion="0.49348232" vertical-offset="381" max-vertical-offset="2669">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/full/less/header.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="40" selection-start="544" selection-end="544" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="663">
@@ -664,9 +693,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/full/less/pooUp.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="5" selection-start="837" selection-end="837" vertical-scroll-proportion="0.6201117" vertical-offset="381" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/split/less/pooUp.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="5" selection-start="837" selection-end="837" vertical-scroll-proportion="0.556797" vertical-offset="415" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/full/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="81" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.6812386" vertical-offset="0" max-vertical-offset="4114">
+        <state line="25" column="122" selection-start="1250" selection-end="1256" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="4114">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/split/less/media/media-320-767.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="5" selection-start="152" selection-end="152" vertical-scroll-proportion="0.15828678" vertical-offset="0" max-vertical-offset="3111">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/split/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="36" selection-start="1191" selection-end="1325" vertical-scroll-proportion="-11.0" vertical-offset="139" max-vertical-offset="4692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/full/less/media/media-320-767.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="26" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.3984375" vertical-offset="799" max-vertical-offset="2686">
           <folding />
         </state>
       </provider>
