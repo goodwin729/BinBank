@@ -6417,6 +6417,20 @@ input:-ms-input-placeholder {
   .man__image {
     height: calc(100vh - 160px);
   }
+  .footer {
+    padding-bottom: 0;
+  }
+  .footer__link {
+    position: relative;
+    top: -15px;
+  }
+  .banner__img {
+    width: 300px;
+  }
+  .banner__title {
+    font-size: 65px;
+    line-height: 70px;
+  }
 }
 /* Design for a width of 740px for Tablet (Portrait) */
 @media only screen and (width: 768px) {
