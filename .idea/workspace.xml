@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="239ecf5b-4083-4c4b-b19d-fe05e7f1d83b" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\dev\BinBank\full\less\media\media-maxWidth-600.less" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full/css/styles.css" afterPath="$PROJECT_DIR$/full/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full/less/styles.less" afterPath="$PROJECT_DIR$/full/less/styles.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full/less/media/media-960-1199.less" afterPath="$PROJECT_DIR$/full/less/media/media-960-1199.less" />
     </list>
     <ignored path="BinBank.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,7 +73,7 @@
       <file leaf-file-name="media-960-1199.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/full/less/media/media-960-1199.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="43" selection-start="202" selection-end="202" vertical-scroll-proportion="0.22160149" vertical-offset="0" max-vertical-offset="537">
+            <state line="3" column="35" selection-start="118" selection-end="118" vertical-scroll-proportion="0.09497207" vertical-offset="0" max-vertical-offset="537">
               <folding />
             </state>
           </provider>
@@ -678,7 +676,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/full/less/media/media-960-1199.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="202" selection-end="202" vertical-scroll-proportion="0.22160149" vertical-offset="0" max-vertical-offset="537">
+        <state line="3" column="35" selection-start="118" selection-end="118" vertical-scroll-proportion="0.09497207" vertical-offset="0" max-vertical-offset="537">
           <folding />
         </state>
       </provider>
