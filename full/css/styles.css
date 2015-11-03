@@ -6173,7 +6173,7 @@ input:-ms-input-placeholder {
   font-size: 12px;
   font-weight: 300;
   line-height: 16px;
-  padding-top: 5px;
+  padding-top: 15px;
   position: relative;
 }
 .form__hint:before {
@@ -6265,12 +6265,13 @@ input:-ms-input-placeholder {
   line-height: 16px;
 }
 .header__number {
+  border: none !important;
   display: block;
   font-family: 'AvenirDemi', serif;
   font-size: 24px;
   line-height: 30px;
   position: relative;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .header__number:before {
   content: "";
