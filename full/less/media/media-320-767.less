@@ -37,6 +37,9 @@
     .man {
         position: relative;
         text-align: right;
+        &_question {
+            text-align: center;
+        }
         &__trigger {
             left: 20px;
             top: 20px;
@@ -64,9 +67,14 @@
         &-text {
             padding: 0 @site-padding;
         }
+        &-scroll {
+            margin-right: @site-padding;
+            overflow: scroll;
+        }
     }
     .form {
         padding: 0;
+        padding-bottom: @site-padding;
         &__title {
             font-size: 21px;
             font-family: @brand-font;
@@ -127,12 +135,16 @@
     }
     .footer {
         background-color: @white;
+        margin: 0 -@site-padding;
+        position: relative;
         opacity: 0.8;
         &__copy {
+            line-height: 16px;
             text-align: center;
             span {
                 display: block;
                 font-size: 16px;
+                line-height: 16px;
             }
         }
     }
