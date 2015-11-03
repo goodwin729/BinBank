@@ -6423,7 +6423,7 @@ input:-ms-input-placeholder {
     font-family: 'AvenirDemi';
     font-size: 25px;
     line-height: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
   }
   .form__item {
     float: none;
@@ -6440,7 +6440,7 @@ input:-ms-input-placeholder {
     top: 150px;
   }
   .man__image {
-    height: calc(100vh - 140px);
+    height: calc(100vh - 190px);
   }
   .tariff__item-desctop {
     display: none;
