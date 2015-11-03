@@ -6430,7 +6430,7 @@ input:-ms-input-placeholder {
   .banner__title {
     font-size: 65px;
     line-height: 70px;
-    margin-top: -10px;
+    top: -10px;
     position: relative;
   }
   .form__title {
