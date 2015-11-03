@@ -6419,6 +6419,9 @@ input:-ms-input-placeholder {
     display: block;
     float: none;
   }
+  .content {
+    height: calc(100vh - 230px);
+  }
   .form__title {
     font-family: 'AvenirDemi';
     font-size: 25px;
