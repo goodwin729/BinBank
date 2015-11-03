@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="239ecf5b-4083-4c4b-b19d-fe05e7f1d83b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full/less/header.less" afterPath="$PROJECT_DIR$/full/less/header.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full/less/media/media-768-959.less" afterPath="$PROJECT_DIR$/full/less/media/media-768-959.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full/css/styles.css" afterPath="$PROJECT_DIR$/full/css/styles.css" />
     </list>
@@ -38,7 +39,7 @@
       <file leaf-file-name="media-768-959.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/full/less/media/media-768-959.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="34" selection-start="482" selection-end="482" vertical-scroll-proportion="0.7281192" vertical-offset="0" max-vertical-offset="1462">
+            <state line="19" column="31" selection-start="419" selection-end="419" vertical-scroll-proportion="0.53817505" vertical-offset="34" max-vertical-offset="1581">
               <folding />
             </state>
           </provider>
@@ -65,7 +66,7 @@
       <file leaf-file-name="header.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/full/less/header.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="30" selection-start="501" selection-end="501" vertical-scroll-proportion="-7.0" vertical-offset="0" max-vertical-offset="646">
+            <state line="26" column="36" selection-start="675" selection-end="675" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
@@ -121,8 +122,8 @@
         <option value="$PROJECT_DIR$/split/less/variables.less" />
         <option value="$PROJECT_DIR$/split/less/tariff.less" />
         <option value="$PROJECT_DIR$/split/less/media/media-320-767.less" />
-        <option value="$PROJECT_DIR$/full/less/header.less" />
         <option value="$PROJECT_DIR$/full/less/media/media-320-767.less" />
+        <option value="$PROJECT_DIR$/full/less/header.less" />
         <option value="$PROJECT_DIR$/full/less/media/media-768-959.less" />
       </list>
     </option>
@@ -602,13 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/full/less/header.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="501" selection-end="501" vertical-scroll-proportion="-7.0" vertical-offset="0" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/full/less/form.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="34" selection-start="213" selection-end="213" vertical-scroll-proportion="-2.3333333" vertical-offset="0" max-vertical-offset="833">
@@ -665,9 +659,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/full/less/header.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="36" selection-start="675" selection-end="675" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/full/less/media/media-768-959.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="34" selection-start="482" selection-end="482" vertical-scroll-proportion="0.7281192" vertical-offset="0" max-vertical-offset="1462">
+        <state line="19" column="31" selection-start="419" selection-end="419" vertical-scroll-proportion="0.53817505" vertical-offset="34" max-vertical-offset="1581">
           <folding />
         </state>
       </provider>

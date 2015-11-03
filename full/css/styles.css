@@ -6276,7 +6276,7 @@ input:-ms-input-placeholder {
   content: "";
   background: url("../img/ico-phone.png") no-repeat 0 0;
   height: 25px;
-  left: -45px;
+  left: -30px;
   position: absolute;
   top: 5px;
   width: 21px;
@@ -6405,6 +6405,12 @@ input:-ms-input-placeholder {
   }
 }
 /* Design for a width of 740px for Tablet (Portrait) */
+@media only screen and (width: 768px) {
+  .modal__scroll {
+    margin-right: 15px;
+    overflow: scroll;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 989px) {
   .device {
     display: block;
@@ -6447,6 +6453,7 @@ input:-ms-input-placeholder {
   }
   .man__image {
     height: calc(100vh - 190px);
+    margin-right: 10px;
   }
   .tariff__item-desctop {
     display: none;
