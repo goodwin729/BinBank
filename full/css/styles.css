@@ -6412,7 +6412,7 @@ input:-ms-input-placeholder {
 }
 @media only screen and (min-width: 960px) and (max-width: 1199px) {
   .content {
-    height: calc(100vh - 180px);
+    height: calc(100vh - 240px);
   }
   .man__image {
     height: calc(100vh - 160px);
