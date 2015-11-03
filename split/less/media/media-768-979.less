@@ -17,13 +17,23 @@
         }
     }
     .content {
-        height: auto;
+        &-form {
+            height: calc(~'100vh -' 105px);
+        }
+        &-steps {
+            height: auto;
+        }
+    }
+    .container {
+        width: 100%;
     }
     .banner {
         padding-bottom: 0;
         &__img {
             display: block;
             float: none;
+        }
+        &__title {
         }
     }
     .form {
