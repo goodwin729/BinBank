@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="239ecf5b-4083-4c4b-b19d-fe05e7f1d83b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full/less/media/media-768-959.less" afterPath="$PROJECT_DIR$/full/less/media/media-768-959.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full/css/styles.css" afterPath="$PROJECT_DIR$/full/css/styles.css" />
     </list>
     <ignored path="BinBank.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +37,7 @@
       <file leaf-file-name="media-768-959.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/full/less/media/media-768-959.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="34" selection-start="430" selection-end="430" vertical-scroll-proportion="0.1452514" vertical-offset="262" max-vertical-offset="1394">
+            <state line="20" column="34" selection-start="430" selection-end="430" vertical-scroll-proportion="0.24022347" vertical-offset="211" max-vertical-offset="1394">
               <folding />
             </state>
           </provider>
@@ -667,7 +666,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/full/less/media/media-768-959.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="34" selection-start="430" selection-end="430" vertical-scroll-proportion="0.1452514" vertical-offset="262" max-vertical-offset="1394">
+        <state line="20" column="34" selection-start="430" selection-end="430" vertical-scroll-proportion="0.24022347" vertical-offset="211" max-vertical-offset="1394">
           <folding />
         </state>
       </provider>
