@@ -6412,6 +6412,9 @@ input:-ms-input-placeholder {
   .desktop {
     display: none;
   }
+  .header {
+    padding: 15px;
+  }
   .banner {
     padding-bottom: 0;
   }
@@ -6420,7 +6423,7 @@ input:-ms-input-placeholder {
     float: none;
   }
   .content {
-    height: calc(100vh - 240px);
+    height: calc(100vh - 210px);
   }
   .form__title {
     font-family: 'AvenirDemi';
