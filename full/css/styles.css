@@ -6410,6 +6410,14 @@ input:-ms-input-placeholder {
     top: 160px;
   }
 }
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+  .content {
+    height: calc(100vh - 210px);
+  }
+  .man__image {
+    height: calc(100vh - 190px);
+  }
+}
 /* Design for a width of 740px for Tablet (Portrait) */
 @media only screen and (width: 768px) {
   .modal__scroll {
