@@ -6488,7 +6488,7 @@ input:-ms-input-placeholder {
     position: relative;
     text-align: right;
   }
-  .man_question {
+  .man__question {
     text-align: center;
   }
   .man__trigger {
