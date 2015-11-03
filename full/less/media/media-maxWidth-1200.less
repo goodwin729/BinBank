@@ -1,19 +1,21 @@
-@media only screen and (min-width: 960px) and (max-width: 1199px){
-    .header {
-        padding-top: @site-padding;
-    }
-    .banner {
-        padding-bottom: 0;
-        padding-top: 0;
-    }
-}
 @media only screen and (min-width: 1200px) and (max-width: 1600px){
+    .header {
+        padding-top: 20px;
+    }
     .banner {
         padding-bottom: 0;
         padding-top: 0;
     }
 }
-@media only screen and (min-width: 1500px){
+@media only screen and (min-width: 1600px){
+    .form {
+        &__title {
+            padding-bottom: @site-padding * 3;
+        }
+        &__list {
+            padding: @site-padding 0; 
+        }
+    }
     .man {
         &__trigger {
             left: -20px;
