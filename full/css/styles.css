@@ -6420,7 +6420,7 @@ input:-ms-input-placeholder {
     float: none;
   }
   .content {
-    height: calc(100vh - 230px);
+    height: calc(100vh - 260px);
   }
   .form__title {
     font-family: 'AvenirDemi';
@@ -6450,6 +6450,17 @@ input:-ms-input-placeholder {
   }
   .tariff__item-device {
     display: block;
+  }
+  .footer__link {
+    position: relative;
+    top: -15px;
+  }
+  .footer__copy {
+    background-color: #ffffff;
+    margin: 0 -40px;
+    opacity: 0.8;
+    padding: 5px 40px;
+    position: relative;
   }
 }
 /* Max width 767px */

@@ -18,7 +18,7 @@
         }
     }
     .content {
-        height: calc(~"100vh -" 230px);
+        height: calc(~"100vh -" 260px);
     }
     .form {
         &__title {
@@ -57,6 +57,19 @@
             &-device {
                 display: block;
             }
+        }
+    }
+    .footer {
+        &__link {
+            position: relative;
+            top: -@site-padding;
+        }
+        &__copy {
+            background-color: @white;
+            margin: 0 -(@site-padding * 2 + 10px);
+            opacity: 0.8;
+            padding: 5px (@site-padding * 2 + 10px);
+            position: relative;
         }
     }
 }
