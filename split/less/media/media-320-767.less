@@ -1,9 +1,5 @@
 /* Max width 767px */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-    &-video {
-        height: 200px;
-        width: 100%;
-    }
 }
 @media only screen and (min-width: 320px) and (max-width: 767px){
     .device {
@@ -22,6 +18,10 @@
         &-scroll {
             overflow: auto;
         }
+        &-video {
+            height: 200px;
+            width: 100%;
+        }
     }
     html, body {
         background-image: none;
@@ -35,7 +35,11 @@
         height: auto;
     }
     .header {
+        border-bottom: @gray-dark 1px solid;
+        margin: 0 -@site-padding;
+        margin-bottom: @site-padding;
         padding: @site-padding;
+        position: relative;
         &__logo img{
             width: 120px;
         }
