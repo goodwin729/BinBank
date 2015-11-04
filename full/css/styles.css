@@ -6389,6 +6389,12 @@ input:-ms-input-placeholder {
 .tariff__info {
   font-size: 12px;
 }
+@media only screen and (min-width: 1200px) {
+  html,
+  body {
+    min-height: 660px;
+  }
+}
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .header {
     padding-top: 20px;
