@@ -6416,7 +6416,10 @@ input:-ms-input-placeholder {
     top: 160px;
   }
 }
-@media only screen and (min-width: 960px) and (max-width: 1199px) {
+@media only screen and (min-width: 993px) and (max-width: 1199px) {
+  .container {
+    width: 960px;
+  }
   .header {
     padding-top: 15px;
   }
@@ -6458,7 +6461,7 @@ input:-ms-input-placeholder {
     overflow: scroll;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 989px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .device {
     display: block;
   }
@@ -6474,6 +6477,9 @@ input:-ms-input-placeholder {
   .banner__img {
     display: block;
     float: none;
+  }
+  .container {
+    width: 750px;
   }
   .content {
     height: calc(100vh - 210px);
