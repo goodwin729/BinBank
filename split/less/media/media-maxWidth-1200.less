@@ -1,4 +1,7 @@
 @media only screen and (min-width: 1200px) {
+    html, body {
+        min-height: 660px;
+    }
     .footer {
         /*&__copy {
             padding-right: 150px;
@@ -8,6 +11,12 @@
         padding-left: @site-padding;
         padding-right: @site-padding;
         width: 100%;
+        &__copy {
+            line-height: 14px;
+            span {
+                display: block;
+            }
+        }
         &__wrapper {
             left: 25%;
             margin-left: -182px;
@@ -53,7 +62,7 @@
         width: auto;
     }
     .content {
-        height: calc(~"100% -" 180px);
+        height: calc(~"100% -" 190px);
         > * {
             margin: 0 auto;
             width: 350px;
@@ -99,6 +108,18 @@
     }
 }
 @media only screen and (min-width: 1600px){
+    html, body {
+        min-height: 790px;
+    }
+    .form {
+        &__item {
+            padding-bottom: 0;
+        }
+    }
+    .banner {
+        padding-bottom: @site-padding;
+        padding-top: @site-padding;
+    }
     .man {
         &__trigger {
             left: -20px;
