@@ -7,13 +7,43 @@
         margin: 0 auto;
         padding-left: @site-padding;
         padding-right: @site-padding;
-        width: 1200px;
+        width: 100%;
+        &__wrapper {
+            left: 25%;
+            margin-left: -182px;
+            position: absolute;
+        }
     }
     .header {
         margin: 0 auto;
         padding-left: @site-padding;
         padding-right: @site-padding;
-        width: 1200px;
+        width: 100%;
+        &__logo {
+            width: 50%;
+            a {
+                display: block;
+                margin: 0 auto;
+                width: 390px;
+            }
+        }
+        &__contact {
+            width: 50%;
+            &_link {
+                margin-right: 0;
+            }
+            &_wrapper {
+                margin: 0 auto;
+                text-align: right;
+                width: 300px;
+            }
+        }
+        &__number {
+            &:before {
+                left: auto;
+                right: 190px;
+            }
+        }
     }
     .container {
         width: auto;
@@ -22,6 +52,12 @@
         > * {
             margin: 0 auto;
             width: 350px;
+        }
+        &-form{
+            padding-left: 0;
+        }
+        &-steps {
+            padding-right: 0;
         }
     }
     .steps {

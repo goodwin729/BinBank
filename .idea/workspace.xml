@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/html/index.html" afterPath="$PROJECT_DIR$/split/html/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/media/media-maxWidth-1200.less" afterPath="$PROJECT_DIR$/split/less/media/media-maxWidth-1200.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/css/styles.css" afterPath="$PROJECT_DIR$/split/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BinBank.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +30,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/split/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="36" selection-start="9157" selection-end="9162" vertical-scroll-proportion="-13.730769" vertical-offset="1326" max-vertical-offset="4709">
+            <state line="172" column="35" selection-start="12584" selection-end="12593" vertical-scroll-proportion="-8.5" vertical-offset="2703" max-vertical-offset="4811">
               <folding />
             </state>
           </provider>
@@ -40,7 +39,7 @@
       <file leaf-file-name="media-maxWidth-1200.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/split/less/media/media-maxWidth-1200.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="22" selection-start="412" selection-end="412" vertical-scroll-proportion="0.25325885" vertical-offset="119" max-vertical-offset="1309">
+            <state line="12" column="29" selection-start="342" selection-end="342" vertical-scroll-proportion="0.37988827" vertical-offset="0" max-vertical-offset="1921">
               <folding />
             </state>
           </provider>
@@ -631,14 +630,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/split/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="36" selection-start="9157" selection-end="9162" vertical-scroll-proportion="-13.730769" vertical-offset="1326" max-vertical-offset="4709">
+        <state line="172" column="35" selection-start="12584" selection-end="12593" vertical-scroll-proportion="-8.5" vertical-offset="2703" max-vertical-offset="4811">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/split/less/media/media-maxWidth-1200.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="412" selection-end="412" vertical-scroll-proportion="0.25325885" vertical-offset="119" max-vertical-offset="1309">
+        <state line="12" column="29" selection-start="342" selection-end="342" vertical-scroll-proportion="0.37988827" vertical-offset="0" max-vertical-offset="1921">
           <folding />
         </state>
       </provider>
