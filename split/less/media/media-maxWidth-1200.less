@@ -1,3 +1,35 @@
+@media only screen and (min-width: 1200px) {
+    .footer {
+        /*&__copy {
+            padding-right: 150px;
+            width: 50%;
+        }*/
+        margin: 0 auto;
+        padding-left: @site-padding;
+        padding-right: @site-padding;
+        width: 1200px;
+    }
+    .header {
+        margin: 0 auto;
+        padding-left: @site-padding;
+        padding-right: @site-padding;
+        width: 1200px;
+    }
+    .container {
+        width: auto;
+    }
+    .content {
+        > * {
+            margin: 0 auto;
+            width: 350px;
+        }
+    }
+    .steps {
+        &__list {
+            text-align: center;
+        }
+    }
+}
 @media only screen and (min-width: 1200px) and (max-width: 1600px){
     .header {
         padding-top: @site-padding;
@@ -25,7 +57,7 @@
         }
     }
 }
-@media only screen and (min-width: 1500px){
+@media only screen and (min-width: 1600px){
     .man {
         &__trigger {
             left: -20px;
@@ -33,6 +65,7 @@
         }
     }
 }
+
 
 
 
