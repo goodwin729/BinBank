@@ -15,6 +15,14 @@
     .desktop {
         display: none;
     }
+    .mobile {
+        &-none {
+            display: none;
+        }
+        &-block {
+            display: block;
+        }
+    }
     html, body {
         background-image: none;
         background-size: auto;
@@ -66,6 +74,9 @@
             left: 0;
             position: relative;
             top: 0;
+        }
+        .footer__link {
+            margin-left: @site-padding * 2;
         }
     }
     .man {
