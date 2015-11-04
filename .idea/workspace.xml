@@ -4,6 +4,7 @@
     <list default="true" id="239ecf5b-4083-4c4b-b19d-fe05e7f1d83b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/media/media-768-979.less" afterPath="$PROJECT_DIR$/split/less/media/media-768-979.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/css/styles.css" afterPath="$PROJECT_DIR$/split/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/variables.less" afterPath="$PROJECT_DIR$/split/less/variables.less" />
     </list>
     <ignored path="BinBank.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +39,16 @@
       <file leaf-file-name="media-768-979.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/split/less/media/media-768-979.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="15" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.53817505" vertical-offset="867" max-vertical-offset="2040">
+            <state line="100" column="26" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.7914339" vertical-offset="1275" max-vertical-offset="2159">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/split/less/variables.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="12" selection-start="444" selection-end="456" vertical-scroll-proportion="-2.862745" vertical-offset="160" max-vertical-offset="2193">
               <folding />
             </state>
           </provider>
@@ -75,7 +85,6 @@
         <option value="$PROJECT_DIR$/split/less/footer.less" />
         <option value="$PROJECT_DIR$/split/less/styles.less" />
         <option value="$PROJECT_DIR$/split/less/media/media-980-1199.less" />
-        <option value="$PROJECT_DIR$/split/less/variables.less" />
         <option value="$PROJECT_DIR$/split/less/tariff.less" />
         <option value="$PROJECT_DIR$/full/less/media/media-768-959.less" />
         <option value="$PROJECT_DIR$/full/less/header.less" />
@@ -89,6 +98,7 @@
         <option value="$PROJECT_DIR$/split/html/index.html" />
         <option value="$PROJECT_DIR$/split/less/header.less" />
         <option value="$PROJECT_DIR$/split/less/media/media-320-767.less" />
+        <option value="$PROJECT_DIR$/split/less/variables.less" />
         <option value="$PROJECT_DIR$/split/less/media/media-768-979.less" />
       </list>
     </option>
@@ -461,13 +471,6 @@
         <state line="103" column="1" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.0" vertical-offset="1352" max-vertical-offset="2193" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/split/less/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="10" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="2176">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/split/less/tariff.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="24" selection-start="412" selection-end="412" vertical-scroll-proportion="-5.6666665" vertical-offset="0" max-vertical-offset="595" />
@@ -589,9 +592,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/split/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="12" selection-start="444" selection-end="456" vertical-scroll-proportion="-2.862745" vertical-offset="160" max-vertical-offset="2193">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/split/less/media/media-768-979.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="15" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.53817505" vertical-offset="867" max-vertical-offset="2040">
+        <state line="100" column="26" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.7914339" vertical-offset="1275" max-vertical-offset="2159">
           <folding />
         </state>
       </provider>
