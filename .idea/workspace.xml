@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="239ecf5b-4083-4c4b-b19d-fe05e7f1d83b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/html/index.html" afterPath="$PROJECT_DIR$/split/html/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/media/media-320-767.less" afterPath="$PROJECT_DIR$/split/less/media/media-320-767.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/css/styles.css" afterPath="$PROJECT_DIR$/split/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BinBank.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +38,7 @@
       <file leaf-file-name="media-320-767.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/split/less/media/media-320-767.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="9" selection-start="505" selection-end="505" vertical-scroll-proportion="0.53817505" vertical-offset="102" max-vertical-offset="3179">
+            <state line="111" column="20" selection-start="2380" selection-end="2380" vertical-scroll-proportion="0.7783985" vertical-offset="1469" max-vertical-offset="3230">
               <folding />
             </state>
           </provider>
@@ -586,7 +584,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/split/less/media/media-320-767.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="9" selection-start="505" selection-end="505" vertical-scroll-proportion="0.53817505" vertical-offset="102" max-vertical-offset="3179">
+        <state line="111" column="20" selection-start="2380" selection-end="2380" vertical-scroll-proportion="0.7783985" vertical-offset="1469" max-vertical-offset="3230">
           <folding />
         </state>
       </provider>

@@ -35,9 +35,9 @@
         height: auto;
     }
     .header {
-        border-bottom: @gray-dark 1px solid;
+        border-bottom: @gray 1px solid;
         margin: 0 -@site-padding;
-        margin-bottom: @site-padding;
+        margin-bottom: @site-padding * 2;
         padding: @site-padding;
         position: relative;
         &__logo img{
@@ -45,9 +45,13 @@
         }
         &__number {
             font-size: 16px;
+            line-height: 16px;
             &:before {
                 display: none;
             }
+        }
+        &__link {
+            line-height: 16px;
         }
     }
     .man {
@@ -106,7 +110,6 @@
         }
         &__hint {
             left: 0;
-            margin-top: @site-padding;
             position: relative;
             top: 0;
         }
