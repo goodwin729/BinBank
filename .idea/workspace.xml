@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="239ecf5b-4083-4c4b-b19d-fe05e7f1d83b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/media/media-320-767.less" afterPath="$PROJECT_DIR$/split/less/media/media-320-767.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full/less/media/media-768-959.less" afterPath="$PROJECT_DIR$/full/less/media/media-768-959.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/media/media-980-1199.less" afterPath="$PROJECT_DIR$/split/less/media/media-980-1199.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full/less/media/media-maxWidth-1200.less" afterPath="$PROJECT_DIR$/full/less/media/media-maxWidth-1200.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/media/media-maxWidth-1200.less" afterPath="$PROJECT_DIR$/split/less/media/media-maxWidth-1200.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full/css/styles.css" afterPath="$PROJECT_DIR$/full/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/css/styles.css" afterPath="$PROJECT_DIR$/split/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full/less/variables.less" afterPath="$PROJECT_DIR$/full/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BinBank.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,7 +56,7 @@
       <file leaf-file-name="variables.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/full/less/variables.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="176" column="29" selection-start="4127" selection-end="4127" vertical-scroll-proportion="1.1626168" vertical-offset="2370" max-vertical-offset="3417">
+            <state line="109" column="16" selection-start="2878" selection-end="2879" vertical-scroll-proportion="0.5906542" vertical-offset="1537" max-vertical-offset="3349">
               <folding />
             </state>
           </provider>
@@ -566,7 +559,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/full/less/variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="29" selection-start="4127" selection-end="4127" vertical-scroll-proportion="1.1626168" vertical-offset="2370" max-vertical-offset="3417">
+        <state line="109" column="16" selection-start="2878" selection-end="2879" vertical-scroll-proportion="0.5906542" vertical-offset="1537" max-vertical-offset="3349">
           <folding />
         </state>
       </provider>

@@ -6011,7 +6011,7 @@ input:-ms-input-placeholder {
   0% {
     opacity: 0;
     position: relative;
-    top: -150px;
+    top: -100px;
   }
   50% {
     opacity: 0;
@@ -6024,10 +6024,6 @@ input:-ms-input-placeholder {
 }
 @keyframes banner-man {
   0% {
-    position: relative;
-    right: -100px;
-  }
-  60% {
     position: relative;
     right: -100px;
   }
@@ -6048,7 +6044,7 @@ input:-ms-input-placeholder {
   0% {
     opacity: 0;
   }
-  20% {
+  50% {
     opacity: 1;
   }
   100% {
@@ -6059,10 +6055,10 @@ input:-ms-input-placeholder {
   0% {
     opacity: 0;
   }
-  40% {
+  25% {
     opacity: 0;
   }
-  60% {
+  50% {
     opacity: 1;
   }
   100% {
@@ -6073,10 +6069,10 @@ input:-ms-input-placeholder {
   0% {
     opacity: 0;
   }
-  60% {
+  50% {
     opacity: 0;
   }
-  80% {
+  75% {
     opacity: 1;
   }
   100% {
@@ -6087,7 +6083,7 @@ input:-ms-input-placeholder {
   0% {
     opacity: 0;
   }
-  80% {
+  75% {
     opacity: 0;
   }
   100% {
@@ -6101,21 +6097,21 @@ input:-ms-input-placeholder {
 }
 .form__item {
   animation-name: fade_in_2;
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-iteration-count: 1;
 }
 .man {
-  animation-name: fade_in_3;
-  animation-duration: 3s;
+  animation-name: fade_in_2;
+  animation-duration: 4s;
   animation-iteration-count: 1;
 }
 .man__image {
   animation-name: banner-man;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-iteration-count: 1;
 }
 .man__trigger {
-  animation-name: fade_in_4;
+  animation-name: fade_in_3;
   animation-duration: 3s;
   animation-iteration-count: 1;
 }
