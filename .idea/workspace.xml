@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="239ecf5b-4083-4c4b-b19d-fe05e7f1d83b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/index.html" afterPath="$PROJECT_DIR$/split/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/media/media-320-767.less" afterPath="$PROJECT_DIR$/split/less/media/media-320-767.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full/less/media/media-768-959.less" afterPath="$PROJECT_DIR$/full/less/media/media-768-959.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/media/media-768-979.less" afterPath="$PROJECT_DIR$/split/less/media/media-768-979.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/media/media-980-1199.less" afterPath="$PROJECT_DIR$/split/less/media/media-980-1199.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/less/steps.less" afterPath="$PROJECT_DIR$/split/less/steps.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full/css/styles.css" afterPath="$PROJECT_DIR$/full/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/split/css/styles.css" afterPath="$PROJECT_DIR$/split/css/styles.css" />
     </list>
     <ignored path="BinBank.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,7 +55,7 @@
       <file leaf-file-name="media-980-1199.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/split/less/media/media-980-1199.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="13" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.88640594" vertical-offset="663" max-vertical-offset="1326">
+            <state line="63" column="9" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.75977653" vertical-offset="663" max-vertical-offset="1241">
               <folding />
             </state>
           </provider>
@@ -601,7 +594,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/split/less/media/media-980-1199.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="13" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.88640594" vertical-offset="663" max-vertical-offset="1326">
+        <state line="63" column="9" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.75977653" vertical-offset="663" max-vertical-offset="1241">
           <folding />
         </state>
       </provider>
