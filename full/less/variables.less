@@ -91,45 +91,106 @@ input:-ms-input-placeholder {text-overflow:ellipsis;}
     -o-transform: rotate(45deg); /* Для Opera */
     transform: rotate(45deg);
 }
+@keyframes banner-img {
+    0%   {
+        opacity: 0;
+        position: relative;
+        top: -100px;
+    }
+    100% {
+        opacity: 1;
+        position: relative;
+        top: 0;
+    }
+}
+@keyframes banner-title {
+    0%   {
+        opacity: 0;
+        position: relative;
+        top: -150px;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        position: relative;
+        top: 0;
+    }
+}
+@keyframes banner-man {
+    0%   {
+        position: relative;
+        right: -100px;
+    }
+    60%   {
+        position: relative;
+        right: -100px;
+    }
+    100% {
+        position: relative;
+        right: 0;
+    }
+}
+@keyframes fade_in_0 {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
 @keyframes fade_in_1 {
     0%   {opacity: 0;}
-    50%  {opacity: 1;}
+    20%  {opacity: 1;}
     100% {opacity: 1;}
 }
 @keyframes fade_in_2 {
     0%   {opacity: 0;}
-    25%  {opacity: 0;}
-    50%  {opacity: 1;}
+    40%  {opacity: 0;}
+    60%  {opacity: 1;}
     100% {opacity: 1;}
 }
 @keyframes fade_in_3 {
     0%   {opacity: 0;}
-    50%  {opacity: 0;}
-    75%  {opacity: 1;}
+    60%  {opacity: 0;}
+    80%  {opacity: 1;}
     100% {opacity: 1;}
 }
 @keyframes fade_in_4 {
     0%   {opacity: 0;}
-    75%  {opacity: 0;}
+    80%  {opacity: 0;}
     100% {opacity: 1;}
 }
 .form__title {
-    animation-name: fade_in_1;
-    animation-duration: 4s;
+    animation-name: fade_in_2;
+    animation-duration: 3s;
     animation-iteration-count: 1;
 }
 .form__item {
     animation-name: fade_in_2;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: 1;
 }
 .man {
     animation-name: fade_in_3;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: 1;
+    &__image {
+        animation-name: banner-man;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+
+    }
     &__trigger {
         animation-name: fade_in_4;
-        animation-duration: 4s;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+}
+.banner {
+    animation-name: banner-img;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    &__title {
+        animation-name: banner-title;
+        animation-duration: 1s;
         animation-iteration-count: 1;
     }
 }
