@@ -30,13 +30,20 @@
         display: none;
     }
     &__label {
-        border-bottom: @gray-dark 1px dashed;
+        border: none;
+        background-color: transparent;
+        color: @black;
         display: inline;
         font-size: 16px;
         font-weight: 300;
         line-height: 24px;
-        &:hover {
-            border-bottom: none;
+        text-align: left;
+        text-decoration: none;
+        span {
+            border-bottom: @gray-dark 1px dashed;
+            &:hover {
+                border-bottom: none;
+            }
         }
     }
 }
