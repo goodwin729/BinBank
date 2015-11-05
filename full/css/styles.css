@@ -6136,13 +6136,19 @@ input:-ms-input-placeholder {
   display: none;
 }
 .checkbox__label {
-  border-bottom: #555555 1px dashed;
+  border: none;
+  background-color: transparent;
   display: inline;
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
+  text-align: left;
+  text-decoration: none;
 }
-.checkbox__label:hover {
+.checkbox__label span {
+  border-bottom: #555555 1px dashed;
+}
+.checkbox__label span:hover {
   border-bottom: none;
 }
 .form__title {
@@ -6516,6 +6522,10 @@ input:-ms-input-placeholder {
   }
   .tariff__item-device {
     display: block;
+  }
+  .modal__scroll {
+    margin-right: 15px;
+    overflow: auto;
   }
   .footer {
     padding-bottom: 0;
