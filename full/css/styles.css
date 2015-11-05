@@ -6013,9 +6013,6 @@ input:-ms-input-placeholder {
     position: relative;
     top: -100px;
   }
-  50% {
-    opacity: 0;
-  }
   100% {
     opacity: 1;
     position: relative;
@@ -6122,7 +6119,7 @@ input:-ms-input-placeholder {
 }
 .banner__title {
   animation-name: banner-title;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-iteration-count: 1;
 }
 .banner {
@@ -6458,7 +6455,11 @@ input:-ms-input-placeholder {
 @media only screen and (min-width: 1200px) {
   html,
   body {
-    min-height: 660px;
+    min-height: 670px;
+  }
+  .man__image {
+    margin-top: 40px;
+    min-height: 570px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -6471,6 +6472,10 @@ input:-ms-input-placeholder {
   }
 }
 @media only screen and (min-width: 1600px) {
+  html,
+  body {
+    min-height: 820px;
+  }
   .form__title {
     line-height: 60px;
     padding-bottom: 45px;
@@ -6480,7 +6485,12 @@ input:-ms-input-placeholder {
   }
   .man__trigger {
     left: -70px;
-    top: 160px;
+    top: 260px;
+  }
+  .man__image {
+    height: calc(100vh - 100px);
+    min-height: 700px;
+    margin-top: 120px;
   }
 }
 @media only screen and (min-width: 993px) and (max-width: 1199px) {
