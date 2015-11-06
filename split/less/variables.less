@@ -124,8 +124,12 @@ input:-ms-input-placeholder {text-overflow:ellipsis;}
 }
 /*------animation------*/
 @keyframes banner-img {
-    0%   {
+    20%   {
         left: -100%;
+        position: relative;
+    }
+    85% {
+        left: 40px;
         position: relative;
     }
     100% {
@@ -136,7 +140,131 @@ input:-ms-input-placeholder {text-overflow:ellipsis;}
 .banner {
     &__img {
         animation-name: banner-img;
-        animation-duration: 1s;
+        animation-duration: 0.8s;
         animation-delay: 1;
+        animation-timing-function: ease;
+    }
+}
+@keyframes banner-text {
+    20%   {
+        left: -100%;
+        position: relative;
+    }
+    100% {
+        left: 0;
+        position: relative;
+    }
+}
+.banner {
+    &__title {
+        animation-name: banner-text;
+        animation-duration: 1.5s;
+        animation-delay: 1;
+        animation-timing-function: ease;
+    }
+}
+.banner {
+    &__img {
+        animation-name: banner-img;
+        animation-duration: 0.8s;
+        animation-delay: 1;
+        animation-timing-function: ease;
+    }
+}
+@keyframes form {
+    0%   {
+        opacity: 0;
+    }
+    70%   {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.form {
+    animation-name: form;
+    animation-duration: 1.8s;
+    animation-delay: 1;
+    animation-timing-function: ease;
+}
+@keyframes step-1 {
+    0%   {
+        opacity: 0;
+    }
+    50%   {
+        opacity: 0;
+    }
+    70%   {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes step-2 {
+    0%   {
+        opacity: 0;
+    }
+    60%   {
+        opacity: 0;
+    }
+    80%   {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes step-3 {
+    0%   {
+        opacity: 0;
+    }
+    70%   {
+        opacity: 0;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.steps {
+    &__item {
+        &:first-child {
+            animation-name: step-1;
+            animation-duration: 3.5s;
+            animation-timing-function: ease;
+        }
+        &:nth-child(2) {
+            animation-name: step-2;
+            animation-duration: 3.5s;
+            animation-timing-function: ease;
+        }
+        &:nth-child(3) {
+            animation-name: step-3;
+            animation-duration: 3.5s;
+            animation-timing-function: ease;
+        }
+    }
+}
+@keyframes question {
+    0%   {
+        opacity: 0;
+    }
+    80%   {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.man {
+    &__trigger {
+        animation-name: question;
+        animation-duration: 3.5s;
+        animation-delay: 1;
+        animation-timing-function: ease;
     }
 }
