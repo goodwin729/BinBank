@@ -122,3 +122,21 @@ input:-ms-input-placeholder {text-overflow:ellipsis;}
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='transparent', endColorstr='#eee',GradientType=0 ); /* IE6-9 */
 
 }
+/*------animation------*/
+@keyframes banner-img {
+    0%   {
+        left: -100%;
+        position: relative;
+    }
+    100% {
+        left: 0;
+        position: relative;
+    }
+}
+.banner {
+    &__img {
+        animation-name: banner-img;
+        animation-duration: 1s;
+        animation-delay: 1;
+    }
+}
